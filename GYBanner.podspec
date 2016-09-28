@@ -1,14 +1,13 @@
 
 Pod::Spec.new do |s|
 
-
   s.name         = "GYBanner"
   s.version      = "1.0.0"
-  s.summary      = "A simple banner view of by swift"
+  s.summary      = "A simple banner view of by swift3.0"
   s.homepage     = "https://github.com/gxq93/GYBanner"
   s.license      = "MIT"
   s.author       = "GuYi"
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/gxq93/GYBanner.git", :tag => s.version }
   s.source_files  = "GYBanner/*.swift"
 
@@ -27,7 +26,7 @@ Pod::Spec.new do |s|
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
-  s.requires_arc = true
+  # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
